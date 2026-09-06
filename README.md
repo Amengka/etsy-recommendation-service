@@ -58,7 +58,7 @@ GET /recommendations/{user_id}
 ## Quickstart
 
 ```bash
-git clone https://github.com/amengka/etsy-recommendation-service.git
+git clone https://github.com/Amengka/etsy-recommendation-service.git
 cd etsy-recommendation-service
 cp .env.example .env
 ```
