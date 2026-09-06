@@ -142,7 +142,7 @@ def sample_cluster(cluster_id: int, num_samples: int) -> List[str]:
 async def get_top_recommendations(
     user_id: int, 
     num_clusters: int = 3, 
-    num_listings_per_cluster: int = 3
+    num_listings_per_cluster: int = config.NUM_LISTINGS_EACH
 ) -> dict:
     """
     Generate personalized recommendations for a user.
